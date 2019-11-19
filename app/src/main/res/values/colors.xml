@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="red_bg_header">#df496d</color>
+    <color name="fresh_green">#95FB33</color>
+    <color name="fresh_red">#F23E4E</color>
+
+    <color name="colorPrimarySplash">#0098FF</color>
+    <color name="colorPrimaryDarkSplash">#0098FF</color>
+    <color name="colorAccentSplash">#E65100</color>
+</resources>

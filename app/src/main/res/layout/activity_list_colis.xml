@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.ListColisActivity">
+
+    <TextView
+        android:id="@+id/txt_header"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimarySplash"
+        android:gravity="center"
+        android:text="@string/all_colis"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/white" />
+
+    <ImageButton
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="bouton de retour"
+        android:src="@drawable/back" />
+
+    <ImageButton
+        android:id="@+id/btn_add_colis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="8dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@null"
+        android:src="@android:drawable/ic_menu_add" />
+
+    <TextView
+        android:id="@+id/txt_empty_list_colis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="4dp"
+        android:gravity="center"
+        android:text="@string/no_colis_are_for_this_livreur_add_a_new_one_by_clicking_the_add_button_on_the_top_right"
+        android:textAppearance="?android:attr/textAppearance"
+        android:textColor="@android:color/darker_gray"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/list_colis"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/txt_header"
+        android:layout_above="@id/txt_parcours_km"
+        android:divider="@color/colorPrimarySplash"
+        android:dividerHeight="3dp"
+        android:listSelector="@android:drawable/list_selector_background" />
+
+    <TextView
+        android:id="@+id/txt_parcours_km"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:text="Le parcours estimer du livreur"
+        android:background="@color/colorPrimarySplash"/>
+
+</RelativeLayout>

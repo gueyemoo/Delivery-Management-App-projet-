@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="ws.splash.projetcandidature"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/applogo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/applogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".activities.DashboardOfTheDayActivity"></activity>
+        <activity
+            android:name=".activities.DeleteLivreurActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.DeleteColisActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.UpdateLivreurActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.ListLivreursUpdate"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.UpdateColisActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.AddColisActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.ActivitySplash"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.MainActivity"
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="Home page"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:screenOrientation="portrait"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activities.ListLivreursActivity"
+            android:label="Liste des livreurs"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+        <activity
+            android:name=".activities.CreateColisActivity"
+            android:label="@string/add_new_colis"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+        <activity
+            android:name=".activities.ListColisActivity"
+            android:label="@string/all_colis"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+        <activity
+            android:name=".activities.CentreDeDistribution"
+            android:label="centre de distribution des colis"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".activities.ChangeDatabaseChoiceActivity"
+            android:label="menu de changement des donnees"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".activities.CreateLivreurActivity"
+            android:label="ajouter un nouveau livreur"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+        <activity
+            android:name=".activities.ListColisUpdate"
+            android:label="@string/all_colis"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+    </application>
+
+</manifest>

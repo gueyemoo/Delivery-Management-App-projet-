@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    android:id="@+id/livreur_layout">
+
+    <TextView
+        android:id="@+id/txt_livreur_nom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="2dp"
+        android:layout_alignParentTop="true"
+        android:text="@string/livreur_nom"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:text="X : "
+        android:layout_below="@id/txt_livreur_nom"/>
+
+    <TextView
+        android:id="@+id/txt_livreur_x"
+        android:layout_marginLeft="19dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_livreur_nom"
+        android:text="@string/coordonnee_x"
+        android:textAppearance="?android:attr/textAppearance"
+        android:textColor="@android:color/darker_gray" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:text="Y : "
+        android:layout_below="@id/txt_livreur_x"/>
+
+    <TextView
+        android:id="@+id/txt_livreur_y"
+        android:layout_marginLeft="19dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_livreur_x"
+        android:linksClickable="false"
+        android:text="@string/coordonnee_y"
+        android:textColor="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/txt_livreur_disponibilite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:linksClickable="false"
+        android:text="@string/disponibilite"
+        android:textColor="@android:color/darker_gray" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:text="Statut : "
+        android:layout_below="@id/txt_livreur_y"/>
+
+    <TextView
+        android:id="@+id/txt_livreur_statut"
+        android:layout_marginLeft="48dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_livreur_y"
+        android:linksClickable="false"
+        android:text="statut du livreur"
+        android:textColor="@android:color/darker_gray" />
+
+</RelativeLayout>

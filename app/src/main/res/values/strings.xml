@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Delivery Management</string>
+    <string name="author">Mohamed Gueye</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_welcome">              Infomaniak\n Delivery Management App</string>
+    <string name="nom">Nom</string>
+    <string name="add">Ajouter</string>
+    <string name="livreur_nom">Nom du livreur</string>
+    <string name="coordonnee_x">Coordonnée x </string>
+    <string name="coordonnee_y">Coordonnée y </string>
+    <string name="disponibilite">Disponibilite du livreur </string>
+    <string name="add_new_livreur">Ajout d"'"un Livreur</string>
+    <string name="estLivrer">Livraison</string>
+    <string name="all_livreurs">Tous les livreurs</string>
+    <string name="no_livreur_in_the_database_create_new_one_by_clicking_the_add_button_at_the_top_right">Aucun livreur ne se trouve dans la base de données. Ajouter en un nouveau en allant dans vos paramètres.</string>
+    <string name="empty_fields_message">Un ou plusieurs champs sont vides</string>
+    <string name="all_colis">Tous les colis de </string>
+    <string name="no_colis_are_for_this_livreur_add_a_new_one_by_clicking_the_add_button_on_the_top_right">Aucun colis n"'"est attribuer à ce livreur. Affectez ce livreur à un colis en cliquant sur le bouton d"'"ajout en haut à droite</string>
+    <string name="add_new_colis">Ajout d"'" colis</string>
+    <string name="select_a_livreur">Choisissez un livreur</string>
+    <string name="delete">Supprimer</string>
+    <string name="livreur_deleted_successfully">Le livreur a bien été supprimer</string>
+    <string name="colis_deleted_successfully">Le colis a bien été supprimer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

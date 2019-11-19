@@ -1,0 +1,138 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.UpdateLivreurActivity"
+    android:background="@color/colorPrimaryDarkSplash">
+
+
+<TextView
+        android:id="@+id/txt_header"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimarySplash"
+        android:gravity="center"
+        android:text="Modifier un livreur"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/white" />
+
+    <ImageButton
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="bouton de retour"
+        android:src="@drawable/back" />
+
+    <ImageButton
+        android:id="@+id/btn_faq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="8dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@null"
+        android:src="@drawable/faq" />
+
+    <EditText
+        android:id="@+id/txt_livreur_nom"
+        android:layout_below="@+id/txt_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nom"
+        android:inputType="text"
+        android:maxLength="11"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:textAppearance="?android:attr/textAppearance" />
+
+    <EditText
+        android:id="@+id/txt_livreur_x"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/txt_livreur_nom"
+        android:hint="@string/coordonnee_x"
+        android:inputType="numberDecimal|numberSigned"
+        android:maxLength="6"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:textAppearance="?android:attr/textAppearance" />
+
+    <EditText
+        android:id="@+id/txt_livreur_y"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_livreur_x"
+        android:layout_marginTop="8dp"
+        android:hint="@string/coordonnee_y"
+        android:inputType="numberDecimal|numberSigned"
+        android:maxLength="6"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:lines="2"
+        android:maxLines="2"
+        android:textAppearance="?android:attr/textAppearance" />
+
+    <RadioGroup
+        android:id="@+id/radiogroup_livreur_disponibilite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_livreur_y"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true">
+
+        <RadioButton
+            android:id="@+id/radio_disponible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Disponible"
+            android:textColor="@android:color/white"
+            android:layout_marginRight="60dp"
+            android:checked="true"
+            android:onClick="checkButton"/>
+
+        <RadioButton
+            android:id="@+id/radio_indisponible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Indisponible"
+            android:textColor="@android:color/white"
+            android:onClick="checkButton"/>
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_update_livreur"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@+id/radiogroup_livreur_disponibilite"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="Modifier"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:background="@drawable/roundedbutton"/>
+
+
+</RelativeLayout>

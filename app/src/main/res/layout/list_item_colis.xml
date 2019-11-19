@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp">
+
+    <TextView
+        android:id="@+id/txt_colis_nom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="2dp"
+        android:layout_alignParentTop="true"
+        android:text="@string/nom"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="X : "
+        android:layout_marginLeft="2dp"
+        android:layout_below="@id/txt_colis_nom"/>
+
+
+    <TextView
+        android:id="@+id/txt_colis_x"
+        android:layout_marginLeft="19dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_colis_nom"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:text="@string/coordonnee_x"
+        android:textAppearance="?android:attr/textAppearance"
+        android:textColor="@android:color/darker_gray" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:text="Y : "
+        android:layout_below="@id/txt_colis_x"/>
+
+    <TextView
+        android:id="@+id/txt_colis_y"
+        android:layout_marginLeft="19dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_colis_x"
+        android:linksClickable="false"
+        android:text="@string/coordonnee_y"
+        android:textColor="@android:color/darker_gray" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:text="Date de livraison : "
+        android:layout_below="@id/txt_colis_y"/>
+
+    <TextView
+        android:id="@+id/txt_colis_date"
+        android:layout_marginLeft="117dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_colis_y"
+        android:linksClickable="false"
+        android:text="date de livraison du collis"
+        android:textColor="@android:color/darker_gray" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:text="Statut : "
+        android:layout_below="@id/txt_colis_date"/>
+
+    <TextView
+        android:id="@+id/txt_colis_statut"
+        android:layout_marginLeft="47dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_colis_date"
+        android:linksClickable="false"
+        android:text="statut de la livraison"
+        android:textColor="@android:color/darker_gray" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:text="Livreur : "
+        android:layout_below="@id/txt_colis_statut"/>
+
+    <TextView
+        android:id="@+id/txt_livreur_colis_nom"
+        android:layout_marginLeft="52dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_colis_statut"
+        android:text="@string/livreur_nom"
+        android:textColor="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/text_view_countdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/img_colis_image_statut"
+        android:text="Default"
+        android:layout_marginLeft="200dp"
+        android:textColor="@android:color/black"
+        android:textSize="11sp"
+        />
+
+    <ImageView
+        android:id="@+id/img_colis_image_statut"
+        android:paddingTop="2dp"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:contentDescription="Situation du colis"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="230dp"
+        android:src="@drawable/centre" />
+
+</RelativeLayout>
