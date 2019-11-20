@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <a href="http://www.mediafire.com/file/kn7orn2alv4iprp/DeliveryManagementApp.apk/file">
+  <a href="https://www.mediafire.com/file/tasfuohw6b66xo7/DeliveryManagementApp.apk/file">
     <img alt="Download on mediafire" title="Download link" src="https://i.imgur.com/L9ssPWN.png" height="65" width="150">
   </a>
 </p>
@@ -20,8 +20,8 @@
 
 - [Introduction](#introduction)
 - [Fonctionnalités](#fonctionnalités)
-- [Solution Generale](#solution-generale)
-- [Idée & Supposition](#idée-&-supposition)
+- [Solution Générale](#solution-générale)
+- [Idée et Supposition](#idée-et-supposition)
 - [Choix Technique](#choix-technique)
 - [Installation](#installation)
 - [Credit](#credit)
@@ -60,7 +60,7 @@ Quelques fonctionnialités disponible avec l'application:
 </p>
 
 
-## Solution Generale
+## Solution Générale
 
 Afin d'aborder le problème donner j'ai décidé de faire plusieurs supposition concernant le sujet plutôt libre de choix avec pour seul but,
 de développer une application permettant chaque matin d'attribuer à chaque livreur disponible une liste de colis à distribuer dans la journée comme indiquer sur le sujet.
@@ -70,7 +70,7 @@ Suivant mes différentes idées j'ai choisi de me tourner vers l'exercice **Full
 J'ai ainsi fait le choix de créer une application 100% mobile grâce à Android Studio car je trouvais cette solution plus adapté au sujet.
 
 
-## Idée & Supposition
+## Idée et Supposition
 
 Ma première approche fût de déchiffrer le concept du sujet afin d'éclaircir certain point et de développer des idées face à celle-ci comme ci dessous:
 
@@ -116,15 +116,15 @@ Le moteur de base de données utilisé  afin de mettre en place la base de donn�
 <br>
 
 Vous trouverez le code java de l'application dans `ProjetCandidature > app > src > main > java > ws > splash > projetcandidature` <br> <br>
-Vous trouverez le code xml des vues et animations de l'application dans `ProjetCandidature > app > src > main > res > layout | anim`
-Les images se trouvent
+Vous trouverez le code xml des vues et animations de l'application dans `ProjetCandidature > app > src > main > res > layout | anim` <br> <br>
+Les images se trouvent dans `ProjetCandidature > app > src > main > res > drawable`
 
 
 ## Installation
 
 Afin de pouvoir utiliser l'application correctement il est nécessaire que votre mobile dispose d'une version android égal ou supérieur à la verison **Android 4.0.3 (API Level 15)**.
 
-Pour installer l'application, il vous suffit de telecharger et d'installer le fichier [apk](http://www.mediafire.com/file/kn7orn2alv4iprp/DeliveryManagementApp.apk/file) sur votre mobile.
+Pour installer l'application, il vous suffit de telecharger et d'installer le fichier [apk](https://www.mediafire.com/file/tasfuohw6b66xo7/DeliveryManagementApp.apk/file) sur votre mobile.
 
 <h6>Comment installer un APK sur Android ?</h6>
 
