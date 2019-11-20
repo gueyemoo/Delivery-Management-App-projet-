@@ -19,16 +19,32 @@
             android:paddingBottom="40dp"
             android:src="@mipmap/app_open_img" />
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Infomaniak"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
         <TextView
             android:id="@+id/titleSplash"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:text="              Infomaniak\n Delivery Management App"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:text="Delivery Management App"
             android:textColor="@android:color/white"
             android:textSize="20sp"
             android:textStyle="bold"
             android:layout_marginBottom="20dp"/>
+    </LinearLayout>
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
