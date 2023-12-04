@@ -142,9 +142,6 @@ Pour installer l'application, il vous suffit de telecharger et d'installer le fi
 
 Merci à Chattapat, Eucalyp, Srip et Freepik de www.flaticon.com qui m'ont permis d'utiliser et de retoucher leurs icônes pour cette application.
 
-## Remerciements
-Merci à [Infomaniak](https://www.infomaniak.com) pour cet exercice dont j'ai pris grand plaisir à réaliser.
-
 ## Feedback
 
 N'hésitez pas à m'envoyer un retour à mon adresse [mail](mailto:m.gueye0411@gmail.com?subject=[GitHub]%20Retour%20Application%20Mobile) en cas de problème rencontrer. <br>
